@@ -117,11 +117,11 @@
 					<fieldset data-role="controlgroup">
 						<legend>size:</legend>
 						<input type="radio" id="size_1" name="size" value="1" checked="checked">
-						<label for="size_1">Small</label>
+						<label for="size_1">Small <span>$20</span></label>
 						<input type="radio" id="size_2" name="size" value="2" checked="checked">
-						<label for="size_2">Medium</label>
+						<label for="size_2">Medium <span>$30.0</span></label>
 						<input type="radio" id="size_3" name="size" value="3" checked="checked">
-						<label for="size_3">Big</label>
+						<label for="size_3">Big <span>$40.0</span></label>
 					</fieldset>
 				</form>
 			</div>
@@ -174,7 +174,7 @@
 		<div role="main" class="ui-content pad-b">
 			<p>User: author</p>
 			<p>Age: 20</p>
-			<p>Info: blah blah blah...</p>
+			<p>Info: I will become a great programmer.</p>
 		</div>
 	</div>
 	<!-- The page of about -->
@@ -186,9 +186,11 @@
 		</div>
 		<!-- Input the content information of the page -->
 		<div role="main" class="ui-content pad-b">
-			<h2>Restaurant name</h2>
+			<h2>Restaurant</h2>
 			<p><img src="images/restaurant.jpg"></p>
-			<p>Restaurant detal Restaurant detal Restaurant detal Restaurant detal Restaurant detal Restaurant detal Restaurant detal</p>
+			<p>3096 N Decatur Rd Suite E Scottdale, GA 30079</p>
+			<p>Phone: (404) 296-0208 </p>
+			<p>Cuisine: Ethiopian/African</p>
 		</div>
 	</div>
 	<!-- The page of gallery -->
@@ -237,28 +239,31 @@
 		<div role="main" class="ui-content">
 			<ul data-role="listview">
 				<li><a href="#new">
-					news one
+					Restaurant Review: Chevalier in Midtown
 				</a></li>
 				<li><a href="#new">
-					news two
+					Restaurant Review: Chevalier in Midtown
 				</a></li>
 				<li><a href="#new">
-					news three
+					Restaurant Review: Chevalier in Midtown
 				</a></li>
 				<li><a href="#new">
-					news four
+					Restaurant Review: Chevalier in Midtown
 				</a></li>
 				<li><a href="#new">
-					news five
+					Restaurant Review: Chevalier in Midtown
 				</a></li>
 				<li><a href="#new">
-					news six
+					Restaurant Review: Chevalier in Midtown
 				</a></li>
 				<li><a href="#new">
-					news saven
+					Restaurant Review: Chevalier in Midtown
 				</a></li>
 				<li><a href="#new">
-					news eight
+					Restaurant Review: Chevalier in Midtown
+				</a></li>
+				<li><a href="#new">
+					Restaurant Review: Chevalier in Midtown
 				</a></li>
 			</ul>
 		</div>
@@ -272,8 +277,15 @@
 		</div>
 		<!-- Input the content information of the page -->
 		<div role="main" class="ui-content  pad-b">
-			<h3>New</h3>
-			<p>new content new content new content new content new content new content new content new content new content new content new content new content new content new content.</p>
+			<h3>Restaurant Review: Chevalier in Midtown</h3>
+			<p>“What’s the matter?” my dinner companion asked one night at Chevalier, the luxurious new French restaurant in Midtown at the base of the Baccarat Hotel & Residences New York. “You look like you just saw a ghost.”</p>
+			<p>Maybe I had. A man wearing an elegantly knotted silk tie had just materialized at our side and wished us “bon appétit” with the ease of a native speaker. He was Charles Masson, who for years steered the stately old ship of La Grenouille until a family struggle sent him out on the streets. He landed at Chevalier as the “director.”</p>
+			<p>In the pre-opening press, Mr. Masson drew as much attention as the chef, Shea Gallante, formerly of Ciano and Cru. But just a month after the opening in early April, he announced that he was leaving. Now, four weeks after that, I was startled to see him in the flesh, still haunting the dining room, wishing us a healthy appetite as we faced our scallops and cavatelli.</p>
+			<p>Today Mr. Masson is officially gone, but Chevalier is still searching for a guiding spirit. This place is confused about its identity. The designer Stephen Sills gave the dining room the soft glimmer of an abalone shell; it’s pretty, but it also looks like a movie director’s idea of a restaurant for rich people. Some of the customers get into the spirit: On two separate nights, somebody walked in with the help of a sterling silver-handled cane. As one of my guests said, it’s a place where Bruce Wayne would have dinner.</p>
+			<p>According to the website, though, Chevalier is a “brasserie de luxe.” The first person who can successfully explain what it has in common with a brasserie wins a choucroute garnie for 12 at my house.</p>
+			<p>Finding the right tone for a new restaurant is fiendishly complicated. As expense and ambitions increase, so do the complications, and Chevalier is both expensive and ambitious. Already, even as it tries to figure itself out, there is a lot to enjoy. Mr. Gallante’s cooking is a little hard to pin down, but every meal reminded me just how compelling Ciano and Cru had been when he was in charge.</p>
+			<p>Anybody whose taste buds are in working order could work up a good appetite for those cavatelli — chewy but tender, yolk-enriched, and shiny in a sharp, springlike ramp pesto with smoked pecorino. The next course brought what has to be the greatest piece of roasted veal loin I’ve ever met, supremely flavorful and juicy.</p>
+			<p>The long slabs of dry-aged duck breast I ate another night had all the intensity, the blood-rich tang and the richness that I’m starting to give up on getting from steak. Thick slices of pork loin ringed with a narrow band of well-rendered fat were a model of subtle, sensitive roasting; most chefs can’t come up with pork this juicy without brining it until it’s as salty as ham.</p>
 		</div>
 	</div>
 	<!-- The page of location -->
@@ -289,11 +301,12 @@
 		</div>
 	</div>
 	<script>
+		// google map
 		var map;
 		function initMap() {
 		  map = new google.maps.Map(document.getElementById('map'), {
 		    center: {lat: -34.397, lng: 150.644},
-		    zoom: 8
+		    zoom: 15
 		  });
 		}
 	</script>
