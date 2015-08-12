@@ -1,0 +1,119 @@
+img {
+	width: 100%;
+}
+.clear {
+	clear:both;
+}
+.author, .author a.name {
+	color: #fff;
+}
+.author a.name {
+	text-decoration: underline;
+}
+.page_navigation {
+	background-image: url(../images/bg_1.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+}
+.page_navigation h1 {
+	font-size: 40px;
+	font-weight: 600;
+	position: absolute;
+	width: 100%;
+	top: 100px;
+	left: 0;
+	text-align: center;
+	text-transform: uppercase;
+}
+.page_navigation .author {
+	position: absolute;
+	bottom: 50px;
+	width: 100%;
+	text-align: center;
+}
+.page_navigation .btns {
+	position: absolute;
+	bottom: 100px;
+	left: 5%;
+	width: 90%;
+}
+.page_navigation .btns .btn {
+	background: rgba(255, 255, 255, .7);
+	color: #222;
+	display: block;
+	float: left;
+	height: 100px;
+	line-height: 50px;
+	margin: 10px 2%;
+	text-align: center;
+	text-decoration: none;
+	width: 29.3%;
+}
+.page_navigation .btns .btn .icon {
+	background-color: rgba(100,100,100, 1);
+	background-image: url(../images/nav-btns.png);
+	background-repeat: no-repeat;
+	background-position: 50% 0;
+	height: 50px;
+	display: block;
+	width: 100%;
+}
+.page_navigation .btns .btn .icon.icon-menu {
+	background-position: 50% 0;
+}
+.page_navigation .btns .btn .icon.icon-news {
+	background-position: 50% -50px;
+}
+.page_navigation .btns .btn .icon.icon-gallery {
+	background-position: 50% -100px;
+}
+.page_navigation .btns .btn .icon.icon-contact {
+	background-position: 50% -150px;
+}
+.page_navigation .btns .btn .icon.icon-about {
+	background-position: 50% -200px;
+}
+.page_navigation .btns .btn .icon.icon-location {
+	background-position: 50% -250px;
+}
+
+.pad-b {
+	padding-bottom: 50px;
+}
+
+.fixed-bottom {
+	background: #fff;
+	position: fixed;
+	height: 50px;
+	border-top: 2px solid #ddd;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	z-index: 9999;
+}
+.fixed-bottom .btn {
+	border-right: 1px solid #ddd;
+	text-decoration: none;
+	display: block;
+	width: 100%;
+	height: 48px;
+	line-height: 48px;
+	text-align: center;
+}
+.fixed-bottom .btn.last {
+	border-right: 0;
+}
+.gallery-list {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+.gallery-list li {
+	float: left;
+	margin-bottom: 20px;
+	margin-right: 15px;
+}
+.gallery-list li img {
+	width: 80px;
+}
