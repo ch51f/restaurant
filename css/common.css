@@ -123,3 +123,7 @@ img {
 .gallery-list li img {
 	width: 80px;
 }
+/* map */
+#map {
+	height: 300px;
+}
