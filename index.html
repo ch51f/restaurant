@@ -8,9 +8,9 @@
 	<link rel="stylesheet" type="text/css" href="./css/common.css">
 	<script type="text/javascript" src="./js/jquery-2.1.4.min.js"></script>
 	<script type="text/javascript" src="./js/jquery.mobile-1.4.5.min.js"></script>
-<!-- 
+
 	<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBEE1994lBDIYMscT_vBrEYo1MtfTkWjkk"></script>
-	 -->
+	
 	<script type="text/javascript" src="./js/common.js"></script>
 </head>
 <body>
@@ -98,11 +98,14 @@
 		<!-- Input the footer information of the page -->
 		<div data-role="footer"><h1>restaurant</h1></div>
 	</div>
+	<!-- The page of food -->
 	<div data-role="page" id="food">
+		<!-- Input the header information of the page -->
 		<div data-role="header">
 			<a href="#menu">Back</a>
 			<h1>food</h1>
 		</div>
+		<!-- Input the content information of the page -->
 		<div role="main" class="ui-content pad-b">
 			<div>
 				<img src="images/food_1.png" alt="" style="width: 100%;">
@@ -122,6 +125,7 @@
 				</form>
 			</div>
 		</div>
+		<!-- Input the  operate of the page -->
 		<div class="fixed-bottom">
 			<div class="ui-grid-b">
 				<div class="ui-block-a">
@@ -136,11 +140,14 @@
 			</div>
 		</div>
 	</div>
+	<!-- The page of feedback -->
 	<div data-role="page" id="feedback">
+		<!-- Input the header information of the page -->
 		<div data-role="header">
 			<a href="#food">Back</a>
 			<h1>feedback</h1>
 		</div>
+		<!-- Input the content information of the page -->
 		<div role="main" class="ui-content">
 			<div data-role="fieldcontain">
 				<form action="">
@@ -155,33 +162,42 @@
 			</div>
 		</div>
 	</div>
+	<!-- The page of author -->
 	<div data-role="page" id="author">
+		<!-- Input the header information of the page -->
 		<div data-role="header">
 			<a href="#navigation">Back</a>
 			<h1>Author</h1>
 		</div>
+		<!-- Input the content information of the page -->
 		<div role="main" class="ui-content pad-b">
 			<p>User: author</p>
 			<p>Age: 20</p>
 			<p>Info: blah blah blah...</p>
 		</div>
 	</div>
+	<!-- The page of about -->
 	<div data-role="page" id="about">
+		<!-- Input the header information of the page -->
 		<div data-role="header">
 			<a href="#navigation">Back</a>
 			<h1>About</h1>
 		</div>
+		<!-- Input the content information of the page -->
 		<div role="main" class="ui-content pad-b">
 			<h2>Restaurant name</h2>
 			<p><img src="images/restaurant.jpg"></p>
 			<p>Restaurant detal Restaurant detal Restaurant detal Restaurant detal Restaurant detal Restaurant detal Restaurant detal</p>
 		</div>
 	</div>
+	<!-- The page of gallery -->
 	<div data-role="page" id="gallery">
+		<!-- Input the header information of the page -->
 		<div data-role="header">
 			<a href="#navigation">Back</a>
 			<h1>Gallery</h1>
 		</div>
+		<!-- Input the content information of the page -->
 		<div role="main" class="ui-content pad-b">
 			<ul class="gallery-list">
 				<li><a href="#showimg"><img src="images/restaurant.jpg"></a></li>
@@ -197,20 +213,26 @@
 			</ul>
 		</div>
 	</div>
+	<!-- The page of showing -->
 	<div data-role="page" id="showimg">
+		<!-- Input the content information of the page -->
 		<div data-role="header">
 			<a href="#gallery">Back</a>
 			<h1>Img</h1>
 		</div>
+		<!-- Input the content information of the page -->
 		<div role="main" class="ui-content pad-b">
 			<img src="images/restaurant.jpg">
 		</div>
 	</div>
+	<!-- The page of news -->
 	<div data-role="page" id="news">
+		<!-- Input the header information of the page -->
 		<div data-role="header">
 			<a href="#navigation">Back</a>
 			<h1>News</h1>
 		</div>
+		<!-- Input the content information of the page -->
 		<div role="main" class="ui-content">
 			<ul data-role="listview">
 				<li><a href="#new">
@@ -240,21 +262,27 @@
 			</ul>
 		</div>
 	</div>
+	<!-- The page of new -->
 	<div data-role="page" id="new">
+		<!-- Input the content information of the page -->
 		<div data-role="header">
 			<a href="#news">Back</a>
 			<h1>New</h1>
 		</div>
+		<!-- Input the content information of the page -->
 		<div role="main" class="ui-content  pad-b">
 			<h3>New</h3>
 			<p>new content new content new content new content new content new content new content new content new content new content new content new content new content new content.</p>
 		</div>
 	</div>
+	<!-- The page of location -->
 	<div data-role="page" id="location">
+		<!-- Input the header information of the page -->
 		<div data-role="header">
 			<a href="#navigation">Back</a>
 			<h1>Location</h1>
 		</div>
+		<!-- Input the content information of the page -->
 		<div role="main" class="ui-content  pad-b">
 			<div id="map-canvas"></div>
 		</div>

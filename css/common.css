@@ -1,15 +1,23 @@
+/* reset img */
 img {
 	width: 100%;
 }
+/* set padding-bottom */
+.pad-b {
+	padding-bottom: 50px;
+}
+/* clear */
 .clear {
 	clear:both;
 }
+/* author */
 .author, .author a.name {
 	color: #fff;
 }
 .author a.name {
 	text-decoration: underline;
 }
+/* navigation */
 .page_navigation {
 	background-image: url(../images/bg_1.jpg);
 	background-repeat: no-repeat;
@@ -78,10 +86,7 @@ img {
 	background-position: 50% -250px;
 }
 
-.pad-b {
-	padding-bottom: 50px;
-}
-
+/* fixed-bar */
 .fixed-bottom {
 	background: #fff;
 	position: fixed;
@@ -104,6 +109,7 @@ img {
 .fixed-bottom .btn.last {
 	border-right: 0;
 }
+/* gallery */
 .gallery-list {
 	list-style: none;
 	margin: 0;
